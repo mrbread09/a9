@@ -9,7 +9,9 @@
     },
     "versionFirst": "3.12.1",
     "uniqCompNum": 11,
-    "versionPublish": "3.12.1"
+    "versionPublish": "3.12.1",
+    "favicon": "",
+    "noImageResize": ""
   },
   "pages": {
     "index.html": {
@@ -22,6 +24,36 @@
         "html_before": ""
       },
       "components": [
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image1",
+          "_anchor": "image1-2",
+          "_params": {
+            "outside": false,
+            "bgColor": "#252525",
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/-1400x7257.jpg",
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
+        },
         {
           "alias": "unicore/components",
           "_tags": [
@@ -106,6 +138,19 @@
             "Theme"
           ],
           "_name": "menu",
+          "_styles": {
+            ".navbar-inverse.scrolled": {
+              "background-color": "#111"
+            },
+            ".navbar-header a": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "font-size": "12px"
+            },
+            ".nav.navbar-nav.navbar-right a": {
+              "font-size": "20px"
+            }
+          },
           "_anchor": "menu-8",
           "_params": {
             "color": "#111",
@@ -125,50 +170,7 @@
           },
           "brandName": "<a data-app-btn=\"true\" data-app-selector=\".navbar-header a\" href=\"www.mong-ggo.co.kr\" class=\"navbar-brand brand\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">수제꼬치 vs 일품요리 몽꼬</a>",
           "buttons": "<li><a data-app-btn=\"true\" class=\"btn btn-primary\" data-app-selector=\".nav.navbar-nav.navbar-right a\" href=\"#\"><span class=\"fa fa-cloud-download\"></span> Download</a></li>",
-          "itemsRight": "<li class=\"dropdown1\"><a class=\"text-white\" data-app-btn=\"true\" data-app-selector=\".nav.navbar-nav.navbar-right a\" href=\"#\">창업문의</a><a class=\"text-white\" data-app-btn=\"true\" data-app-selector=\".nav.navbar-nav.navbar-right a\" href=\"www.mong-ggo.co.kr\">&nbsp;PC홈페이지보기&nbsp;</a></li>",
-          "_styles": {
-            ".navbar-inverse.scrolled": {
-              "background-color": "#111"
-            },
-            ".navbar-header a": {
-              "font-family": "'Oswald', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
-              "font-size": "30px"
-            },
-            ".nav.navbar-nav.navbar-right a": {
-              "font-size": "20px"
-            }
-          }
-        },
-        {
-          "alias": "unicore/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "image1",
-          "_anchor": "image1-2",
-          "_params": {
-            "outside": false,
-            "bgColor": "#252525",
-            "showText": false
-          },
-          "media": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/-1400x7257.jpg",
-              "class": "mbr-figure__img",
-              "width": 1400,
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI"
-            }
-          },
-          "text": "Create awesome mobile-friendly websites. No coding and free."
+          "itemsRight": "<li class=\"dropdown1\"><a class=\"text-white\" data-app-btn=\"true\" data-app-selector=\".nav.navbar-nav.navbar-right a\" href=\"#\">창업문의</a><a class=\"text-white\" data-app-btn=\"true\" data-app-selector=\".nav.navbar-nav.navbar-right a\" href=\"www.mong-ggo.co.kr\">&nbsp;PC홈페이지보기&nbsp;</a></li>"
         },
         {
           "alias": "unicore/components",
