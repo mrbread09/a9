@@ -20,7 +20,7 @@
         "title": "",
         "meta_descr": "",
         "header_custom": "<!-- Facebook Pixel Code -->\n<script>\n!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?\nn.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;\nn.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;\nt.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,\ndocument,'script','https://connect.facebook.net/en_US/fbevents.js');\nfbq('init', '334374096729986');\nfbq('track', 'PageView');\n</script>\n<noscript><img height=\"1\" width=\"1\" style=\"display:none\"\nsrc=\"https://www.facebook.com/tr?id=334374096729986&ev=PageView&noscript=1\"\n/></noscript>\n<!-- DO NOT MODIFY -->\n<!-- End Facebook Pixel Code -->",
-        "footer_custom": "<script type=\"text/javascript\">\n/* <![CDATA[ */\nvar google_conversion_id = 977690298;\nvar google_custom_params = window.google_tag_params;\nvar google_remarketing_only = true;\n/* ]]> */\n</script>\n<script type=\"text/javascript\" src=\"//www.googleadservices.com/pagead/conversion.js\">\n</script>\n<noscript>\n<div style=\"display:inline;\">\n<img height=\"1\" width=\"1\" style=\"border-style:none;\" alt=\"\" src=\"//googleads.g.doubleclick.net/pagead/viewthroughconversion/977690298/?guid=ON&amp;script=0\"/>\n</div>\n</noscript>\n",
+        "footer_custom": "<script type=\"text/javascript\">\n/* <![CDATA[ */\nvar google_conversion_id = 977690298;\nvar google_custom_params = window.google_tag_params;\nvar google_remarketing_only = true;\n/* ]]> */\n</script>\n<script type=\"text/javascript\" src=\"//www.googleadservices.com/pagead/conversion.js\">\n</script>\n<noscript>\n<div style=\"display:inline;\">\n<img height=\"1\" width=\"1\" style=\"border-style:none;\" alt=\"\" src=\"//googleads.g.doubleclick.net/pagead/viewthroughconversion/977690298/?guid=ON&amp;script=0\"/>\n</div>\n</noscript>",
         "html_before": ""
       },
       "components": [
@@ -111,7 +111,8 @@
             "H1": {
               "font-family": "'Montserrat', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
-              "color": "#336a86"
+              "color": "#336a86",
+              "text-align": "center"
             }
           }
         },
@@ -336,7 +337,7 @@
             "overlayColor": "#151515"
           },
           "title": "",
-          "text": "<h4><a href=\"http://www.mong-ggo.co.kr/html/brand_1.html\">PC 홈페이지 바로가기 클릭!!</a></h4>",
+          "text": "<h4><a href=\"http://www.mong-ggo.co.kr/html/brand_1.html\" target=\"_blank\">PC 홈페이지 바로가기 클릭!!</a></h4>",
           "_styles": {
             "P": {
               "text-align": "center"
