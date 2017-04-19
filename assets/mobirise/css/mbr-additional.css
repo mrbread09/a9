@@ -472,3 +472,6 @@ h6,
 #ext_menu-0 .dropdown-item[aria-expanded="true"] {
   color: #c0a375!important;
 }
+#form1-j .form-control-label {
+  color: #232323;
+}
