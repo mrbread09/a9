@@ -1,5 +1,14 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
 
+
+#msg-box11-b P {
+  text-align: center;
+}
+#msg-box11-b H1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #336a86;
+}
 #menu-8 .navbar-inverse.scrolled {
   background-color: #111;
 }
@@ -8,5 +17,11 @@
   font-size: 12px;
 }
 #menu-8 .nav.navbar-nav.navbar-right a {
+  font-size: 20px;
+}
+#msg-box11-c P {
+  text-align: center;
+}
+#msg-box11-c H4 {
   font-size: 20px;
 }
