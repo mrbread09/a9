@@ -336,13 +336,14 @@
             "overlayColor": "#151515"
           },
           "title": "",
-          "text": "<h4>PC 홈페이지 바로가기 클릭!!</h4>",
+          "text": "<h4><a href=\"http://www.mong-ggo.co.kr/html/brand_1.html\">PC 홈페이지 바로가기 클릭!!</a></h4>",
           "_styles": {
             "P": {
               "text-align": "center"
             },
             "H4": {
-              "font-size": "20px"
+              "font-size": "20px",
+              "text-align": "center"
             }
           }
         }
